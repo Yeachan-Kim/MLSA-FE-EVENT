@@ -1,61 +1,53 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-# JavaScript Portfolio Site with GitHub Codespaces and Copilot
+# MLSA 2024 상반기 FE 체험부스
+# Microsoft Azure Static App으로 나만의 리액트(React) 포트폴리오 사이트 만들기
 
-> View these instructions in [Spanish](/translations/es/README.md) or [Portuguese](/translations/pt-BR/README.md)
+몇 분 만에 자신만의 포트폴리오 웹사이트를 생성, 사용자 정의 및 배포할 수 있습니다. ✨
 
-_Create, customize and deploy your own portfolio website in minutes._ ✨
+이 템플릿 저장소에는 개발 환경과 기본 세트가 있으며 바로 사용할 수 있습니다. Codespace 환경을 즉시 시작 하고 Copilot을 사용하여 사이트 사용자 정의를 시작하면 코드를 더 빠르게 작성할 수 있습니다.
 
-In this template repository we have the development environment and base set and ready to go. So that you can immediately launch your [Codespace](https://github.com/features/codespaces/) environment and start customizing your site using [Copilot](https://copilot.github.com) to help you write code faster.
+* **이것은 누구를 위한 것인가요?** 포트폴리오 사이트를 만들거나, 웹 개발을 배우거나, Codespaces를 테스트하려는 누구나!
+* **얼마나 많은 경험이 필요합니까?** 전혀! 필요하지 않습니다!
+* **필요한 도구** 아무것도 설치할 필요가 없습니다! 필요한 것은 웹 브라우저뿐입니다.
+* **전제조건** 이 템플릿에는 자신만의 사이트를 만들 수 있는 개발 환경과 배포 가능한 웹 앱이 포함되어 있습니다.
 
-* **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codespaces.
-* **How much experience do you need?** __Zero__. You decide how much you want to customize based on your experience, and time available.
-* **Tools needed:** _None_. No need to install anything! All you need is a web browser.
-* **Prerequisites:** _None_. This template includes your development environment and deployable web app for you to create your own site.
+### 하나하나 따라하며 만들어 볼까요?
 
-## About this portfolio template
-
-In this "choose your own adventure" template portfolio, we have a [React](https://reactjs.org/) based web application ready for you to easily customize and deploy using only your web browser.
-
-![JavaScript profile web application](/__images__/js-portfolio-site.gif "JavaScript profile web application")
-
-### Quick Start
-
-1. Click the **Use this Template** button and then **Create a new repository** as can be seen in the image below.
-   Note: Make sure you've signed in to GitHub otherwise, you wouldn't see the **Use this Template** button.
+1. 아래 이미지처럼 **Use this Template** 버튼을 누르고 **Create a new repository** 버튼을 누릅니다.
+   참고: GitHub에 로그인했는지 확인하세요. 그렇지 않으면 이 템플릿 사용 버튼이 표시되지 않습니다.
 ![JavaScript profile web application](/__images__/use-this-template.png "Use this Template Image Guide")
-1. Select the repository owner (e.g. your GitHub account)
-1. Enter a unique name for your new repository
-1. Click the **Code** button
-1. Click **Create Codespace on main** button
-1. [Customize your portfolio site](#-customize-your-site-in-3-steps) with Copilot
-1. [Deploy your site](#-deploy-your-web-application)
+2. 새 저장소의 고유한 이름을 입력하세요.
+3. **Code** 버튼을 클릭하세요
+4. **Create Codespace on main** 버튼을 클릭하세요
+5. [ 코파일럿으로 포트폴리오를 꾸며보세요](#-customize-your-site-in-3-steps)
+6. [사이트 배포하기](#-deploy-your-web-application)
 
 <details>
-   <summary><b>🎥 To learn more about Codespaces, watch our video tutorial series</b></summary>
+   <summary><b>🎥  Codespaces에 대해 자세히 알아보려면 비디오 튜토리얼 시리즈를 시청하세요.</b></summary>
 
    [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
 <br />
 
-## 🗃️ JavaScript Portfolio template
+## 🗃️ JavaScript 포트폴리오 템플릿
 
-This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template that you can immediately utilize to create your own website through Codespaces.
+이 저장소는 React 프레임워크를 사용하여 JavaScript 개인 포트폴리오 프런트엔드 웹 애플리케이션을 구축하기 위한 GitHub 템플릿입니다. 목표는 Codespaces를 통해 자신만의 웹사이트를 만드는 데 즉시 활용할 수 있는 템플릿을 제공하는 것입니다.
 
-The repo contains the following:
+저장소에는 다음이 포함되어 있습니다.
 
 * `/.devcontainer`
-  - `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
-  - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
-* `/src`: HTML, JS and CSS files used to build your portfolio site.
-* `.eslintrc`: Settings for [ESLint](https://eslint.org/)</a> that is included for code consistency and quality.
-* `.prettierrc`: Settings for [Prettier](https://prettier.io/) that is used to format code.
-* `package.json` and `package-lock.json`: Defines the project information for [Node.js](https://nodejs.org/)</a>, dependent packages and the versions needed of each.
+  - `.devcontainer/Dockerfile`: 영 체제 및 기타 세부 정보를 결정하기 위해 Codespaces에서 사용하는 구성 파일입니다.
+  - `.devcontainer/devcontainer.json`: 추가 확장 활성화와 같은 Visual Studio Code 설정을 구성하기 위해 Codespaces에서 사용하는 구성 파일입니다.
+* `/src`: 포트폴리오 사이트를 구축하는 데 사용되는 HTML, JS 및 CSS 파일입니다.
+* `.eslintrc`: 코드 일관성 및 품질을 위해 포함된 ESLint 설정입니다.
+* `.prettierrc`: 코드 형식을 지정하는 데 사용되는 Prettier 설정입니다 .
+* `package.json` and `package-lock.json`: Node.js , 종속 패키지 및 각각에 필요한 버전 package-lock.json에 대한 프로젝트 정보를 정의합니다 .
 
 <br />
 
-## 🚀 Getting started
+## 🚀 시작하기
 
 This portfolio site project is filled with sample data so that you can immediately open Codespaces, see it running, and deploy at any point.
 
