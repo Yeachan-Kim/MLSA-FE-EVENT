@@ -5,162 +5,114 @@
 
 몇 분 만에 자신만의 포트폴리오 웹사이트를 생성, 사용자 정의 및 배포할 수 있습니다. ✨
 
-이 템플릿 저장소에는 개발 환경과 기본 세트가 있으며 바로 사용할 수 있습니다. Codespace 환경을 즉시 시작 하고 Copilot을 사용하여 사이트 사용자 정의를 시작하면 코드를 더 빠르게 작성할 수 있습니다.
-
-* **이것은 누구를 위한 것인가요?** 포트폴리오 사이트를 만들거나, 웹 개발을 배우거나, Codespaces를 테스트하려는 누구나!
-* **얼마나 많은 경험이 필요합니까?** 전혀! 필요하지 않습니다!
-* **필요한 도구** 아무것도 설치할 필요가 없습니다! 필요한 것은 웹 브라우저뿐입니다.
-* **전제조건** 이 템플릿에는 자신만의 사이트를 만들 수 있는 개발 환경과 배포 가능한 웹 앱이 포함되어 있습니다.
-
 ### 하나하나 따라하며 만들어 볼까요?
 
 1. 아래 이미지처럼 **Use this Template** 버튼을 누르고 **Create a new repository** 버튼을 누릅니다.
    참고: GitHub에 로그인했는지 확인하세요. 그렇지 않으면 이 템플릿 사용 버튼이 표시되지 않습니다.
 ![JavaScript profile web application](/__images__/use-this-template.png "Use this Template Image Guide")
 2. 새 저장소의 고유한 이름을 입력하세요.
-3. **Code** 버튼을 클릭하세요
-4. **Create Codespace on main** 버튼을 클릭하세요
-5. [ 코파일럿으로 포트폴리오를 꾸며보세요](#-customize-your-site-in-3-steps)
-6. [사이트 배포하기](#-deploy-your-web-application)
-
-<details>
-   <summary><b>🎥  Codespaces에 대해 자세히 알아보려면 비디오 튜토리얼 시리즈를 시청하세요.</b></summary>
-
-   [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
-</details>
-
-<br />
-
-## 🗃️ JavaScript 포트폴리오 템플릿
-
-이 저장소는 React 프레임워크를 사용하여 JavaScript 개인 포트폴리오 프런트엔드 웹 애플리케이션을 구축하기 위한 GitHub 템플릿입니다. 목표는 Codespaces를 통해 자신만의 웹사이트를 만드는 데 즉시 활용할 수 있는 템플릿을 제공하는 것입니다.
-
-저장소에는 다음이 포함되어 있습니다.
-
-* `/.devcontainer`
-  - `.devcontainer/Dockerfile`: 영 체제 및 기타 세부 정보를 결정하기 위해 Codespaces에서 사용하는 구성 파일입니다.
-  - `.devcontainer/devcontainer.json`: 추가 확장 활성화와 같은 Visual Studio Code 설정을 구성하기 위해 Codespaces에서 사용하는 구성 파일입니다.
-* `/src`: 포트폴리오 사이트를 구축하는 데 사용되는 HTML, JS 및 CSS 파일입니다.
-* `.eslintrc`: 코드 일관성 및 품질을 위해 포함된 ESLint 설정입니다.
-* `.prettierrc`: 코드 형식을 지정하는 데 사용되는 Prettier 설정입니다 .
-* `package.json` and `package-lock.json`: Node.js , 종속 패키지 및 각각에 필요한 버전 package-lock.json에 대한 프로젝트 정보를 정의합니다 .
-
-<br />
-
-## 🚀 시작하기
-
-This portfolio site project is filled with sample data so that you can immediately open Codespaces, see it running, and deploy at any point.
-
-Your development environment is all set for you to start. Based on our [JavaScript Codespace Template (React)](https://github.com/microsoft/codespaces-teaching-template-js), here is what is already setup and ready for you to use:
-
-* Simple [React](https://reactjs.org/) application with components for each section of the portfolio site
-* [Parcel](https://parceljs.org/) in place to build your site when deploying
-* Code linting and formatting using [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for code consistency.
-
-### Create your portfolio
-
-1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-project-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
-1. Before creating the Codespace, enable GitHub Copilot for your account. If it is not enabled, take a look at [Customize your portfolio site using Copilot](#-customize-your-site-in-3-steps).
-1. Navigate to the main page of the newly created repository.
-3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
+3. 새로 생성된 저장소의 메인 페이지로 이동합니다.
+4. 저장소 이름 아래에서 코드 드롭다운 메뉴를 사용하고 Codespaces 탭에서 "Create codespace on main"을 선택합니다.
 
     <img src="./__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>
 
 
-4. Wait as GitHub initializes the Codespace.
+4. GitHub가 Codespace를 초기화하는 동안 기다립니다.
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
 
-5. When complete you will see your Codespace load with a terminal section at the bottom. Codespaces will install all the required extensions in your container, followed by executing `npm install`. Once the package installs are completed, Codespaces will execute `npm start` to start your web application running within your Codespace.
+5. 완료되면 하단에 터미널 섹션이 있는 Codespace 로드가 표시됩니다. Codespaces는 npm install을 통해 컨테이너에 필요한 모든 확장을 설치한 후, 패키지 설치가 완료되면 Codespaces가 실행되어 npm start를 통해 Codespace 내에서 실행되는 웹 애플리케이션을 시작합니다.
 
-   When the web application has successfully started you will see a message in the terminal that the server is running on port 1234 within your Codespace:
+웹 애플리케이션이 성공적으로 시작되면 서버가 Codespace 내의 포트 1234에서 실행되고 있다는 메시지가 터미널에 표시됩니다.
 
    <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Web application started on port 1234" style="width: 300px;"/>
 
 <br />
 
-## ✨ Customize your site in 3 steps
+## ✨ 이제 사이트를 꾸며봅시다!
 
-This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how prop values are passed to React components.
+### 1️⃣ "내 소개"와 소셜 계정을 추가하세요
 
-For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespace.
-
-> See [Using source control in your codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
-
-### 1️⃣ Add your "About me" and social accounts
-
-Within `/src/App.jsx` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email, and social accounts.
+/src/App.jsx 파일을 클릭하면 siteProps 이라는 변수가 보일 것입니다. 이는 이름, 직위, 이메일 및 소셜 계정을 사용자 정의하는 JavaScript 개체입니다.
 
 ```javascript
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "microsoft",
+  name: "김예찬",
+  title: "프론트엔드 개발자 & MLSA ",
+  email: "Yeachan.Kim@studentambassadors.com",
+  gitHub: "Yeachan-Kim",
+  instagram: "MLSA_KNU",
+  linkedIn: "MLSA_KNU",
+  medium: "MLSA_KNU",
+  twitter: "MLSA_KNU",
+  youTube: "MLSA_KNU",
 };
 ```
 
-Update to the name and title you'd like displayed at the top of your site.
+위 형식에 맞게 자유롭게 오른쪽 부분을 변경해주세요! (EX. name: "홍길동")
+작성할 내용이 없다면 빈 문자열("")로 남겨두면 됩니다.
+빈 문자열("")로 설정된 항목이 있으면 아이콘과 링크가 표시되지 않습니다.
 
-_Optional values_ are email address and social accounts. These are used in the `Footer` component. If any item is not included in the list or set to an empty string ("") it will not display the icon and link.
+### 2️⃣ 배경 이미지를 바꿔 볼까요?
 
-### 2️⃣ Update images
+이 포트폴리오 사이트에는 1. 상단 섹션 배경 2."내 소개" 배경 3. 포트폴리오 배경 총 3가지 이미지가 포함되어 있습니다.
 
-This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
+사진은 `/src/images` 폴더에 있는 사진들 중 마음에 드는 걸로 고르시면 됩니다!
 
-A couple possible sites to find photos are [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com). Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/images` with a short, meaningful file name.
+만약 images 폴더 안에 dog.jpg 이미지를 선택하고 싶은 경우
+import image from "../images/server-wall.jpg"; -> import image from "../images/dog.jpg";
+와 같이 이미지를 선택해주고
+const imageAltText = "서있는 여성의 이미지"; -> const imageAltText = "강아지 사진";
+와 같이 이미지 설명을 변경하시면 됩니다.
 
-Go to the following below components to update the `import image...` line to reference the new image you downloaded for that section, as well as the `imageAltText` for the image:
+아래의 3곳을 변경해주세요!
 
-* `/src/Components/Home.jsx` - section at top of the page, main image you will see when site loads (woman standing by server wall in sample)
+* `/src/Components/Home.jsx` - 페이지 상단 섹션(여성 얼굴 이미지)
    ```javascript
       import image from "../images/server-wall.jpg";
-      const imageAltText = "woman holding laptop standing by server room with glass wall";
+      const imageAltText = "서있는 여성의 이미지";
    ```
-* `/src/Components/About.jsx` - background behind the detailed "About me" section (abstract mosaic in sample)
+* `/src/Components/About.jsx` - "내 소개" 섹션 뒤의 배경(추상적인 이미지)
    ```javascript
       import image from "../images/mosaic.svg";
-      const imageAltText = "purple and blue abstract background";
+      const imageAltText = "보라와 파란색의 모자이크 이미지";
    ```
-* `/src/Components/Portfolio.jsx`- image highlighted in left hand side of section (design desk photo in sample)
+* `/src/Components/Portfolio.jsx`- 포트폴리오 섹션 왼쪽에 표시된 이미지(책과 필기도구 이미지)
    ```javascript
       import image from "../images/design-desk.jpeg";
-      const imageAltText = "desktop with books and laptop";
+      const imageAltText = "책과 필기도구 이미지";
    ```
 
-### 3️⃣ Add items you've worked on and detail text
+### 3️⃣ 자기소개를 작성해 볼까요?
 
-The About section helps to give people a bit more information about your skills and passions. Within `/src/Components/About.jsx` you will find 2 values to update:
+자기소개 섹션을 수정해봅시다!
 
-* `description`: short sentence or two describing yourself, career goals, and/or passions
-* `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
+`/src/Components/About.jsx` 파일 안에 2곳을 변경해봅시다!
 
-The second section to update is the Portfolio section, where you highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
+* `description`: 자신, 경력 목표 및/또는 열정을 설명하는 짧은 문장 1~2개
+* `detailOrQuote`: 자신에 대한 자세한 내용이나 좋아하는 인용문을 추가할 수 있는 긴 블록
 
-Go to `/src/Components/Portfolio.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description, and URL.
+다음으로는 포트폴리오 섹션을 수정해봅시다!
 
-The sample design has 4, but the number you include is up to you.
+`/src/Components/Portfolio.jsx` 파일로 가서 `projectList` 변수를 변경해봅시다
+
+샘플에는 4개의 프로젝트가 있지만 본인 마음대로 갯수를 늘리고 줄일 수 있어요!
 
 ```javascript
 const projectList = [
   {
-    title: "10 Things to know about Azure Static Web Apps 🎉",
-    description: "Collaboration to create a beginner friendly....",
+    title: "Azure Static Web Apps 🎉에 대해 알아야 할 10가지",
+    description: "초보자 친화적인 사람을 만들기 위한 협력....",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
-    description: "Contributed sketch note imagery to accompany...",
+    title: "초보자를 위한 웹 개발",
+    description: "기여한 스케치 노트 이미지...",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
-    description: "Created from Microsoft's resume workshop...",
+    title: "나의 이력서 사이트",
+    description: "마이크로소프트의 이력서 워크샵에서 작성...",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
