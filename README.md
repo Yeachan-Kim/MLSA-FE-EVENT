@@ -57,7 +57,9 @@ const siteProps = {
 
 빈 문자열("")로 설정된 항목이 있으면 아이콘과 링크가 표시되지 않습니다.
 
-수정을 마친 후 변경된 웹 사이트를 보고 싶다면 아까 열어둔 웹사이트를 새로고침 하시거나 다시 여시면 됩니다!
+수정을 마치면 자동으로 웹 사이트가 변경이 됩니다.
+
+만약 변경이 되지 않는다면 웹사이트를 새로고침 하시거나 다시 여시면 됩니다!
 
 ### 2️⃣ 배경 이미지를 바꿔 볼까요?
 
@@ -97,15 +99,24 @@ const imageAltText = "서있는 여성의 이미지"; -> const imageAltText = "�
 
 자기소개 섹션을 수정해봅시다!
 
-`/src/Components/About.jsx` 파일 안에 2곳을 변경해봅시다!
+`/src/Components/About.jsx` 파일 안에 3곳을 변경해봅시다!
 
 * `description`: 자신, 경력 목표 및/또는 열정을 설명하는 짧은 문장 1~2개
+* `skillsList`: 자신이 가지고 있는 능력
 * `detailOrQuote`: 자신에 대한 자세한 내용이나 좋아하는 인용문을 추가할 수 있는 긴 블록
 ```javascript
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "경북대학교에서 사람들에게 MS의 기술을 전파하고 있는 MLSA 김예찬입니다.";
+const skillsList = [
+  "Web design",
+  "User experience",
+  "Inclusive design",
+  "Focus group testing",
+  "Mobile user interfaces",
+  "Graphic design",
+];
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "세상에 두려울 것은 없다. 모르는 것일 뿐";
 ```
 
 다음으로는 포트폴리오 섹션을 수정해봅시다!
@@ -156,17 +167,20 @@ Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더�
 Codespaces에서 프로젝트를 연 상태에서:
 
 1. 왼쪽 사이드바에서 Azure 아이콘을 클릭합니다. 아직 로그인하지 않은 경우 로그인하고, Azure를 처음 사용하는 경우에는 프롬프트에 따라 계정을 만듭니다.
-2. Azure 메뉴에서 "+" 기호를 클릭한 다음 "정적 웹 앱 만들기"를 클릭합니다.
-3. GitHub에 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다. 보류 중인 파일 변경 사항이 있는 경우 해당 변경 사항을 커밋하라는 메시지가 표시됩니다.
-4. 메시지가 표시되면 애플리케이션 정보를 설정합니다.
-    1. **Region**: 가장 가까운 지역을 선택하세요.
-    2. **Project structure**: "React"를 선택하세요.
-    3. **Location of application code**: `/`
-    4. **Build location**: `dist`
-5. 완료되면 화면 하단에 알림이 표시되고 새로운 GitHub Action 워크플로가 프로젝트에 추가됩니다. “GitHub에서 액션 열기”를 클릭하면 생성된 액션이 현재 실행 중인 것을 볼 수 있습니다.
+2. Azure 메뉴에서 "+" 기호를 클릭한 다음 "Create Static Web App"를 클릭합니다.
+3. GitHub에 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다. 로그인 해주시면 됩니다.
+4. 보류 중인 파일 변경 사항이 있는 경우 해당 변경 사항을 커밋하라는 메시지가 표시됩니다. 허락 해주시면 됩니다. `Commit made from VS Code Azure Static Web Apps` 라고 뜬다면 Enter 누르시면 됩니다.
+5. 메시지가 표시되면 애플리케이션 정보를 설정합니다.
+      1. **Name**: `myWebSite`라고 작성해주세요.
+      2. **Region**: `East Asia` 지역을 선택하세요.
+      3. **Project structure**: `React`를 선택하세요.
+      4. **Location of application code**: `/` 라고 작성해주세요
+      5. **Build location**: `dist` 라고 작성해주세요.
+7. 완료되면 화면 하단에 알림이 표시되고 새로운 GitHub Action 워크플로가 프로젝트에 추가됩니다. “GitHub에서 액션 열기”를 클릭하면 생성된 액션이 현재 실행 중인 것을 볼 수 있습니다.
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
-1. 배포 상태를 보려면 VS Code 왼쪽 막대의 Azure 탭에서 정적 웹앱 리소스를 찾으세요.
-1. 배포가 완료되면 정적 웹 앱 리소스를 마우스 오른쪽 버튼으로 클릭하고 "Browse Site"를 선택하여 공개적으로 액세스할 수 있는 새로운 애플리케이션을 볼 수 있습니다.
+8. 배포 상태를 보려면 VS Code 왼쪽 막대의 Azure 탭에서 정적 웹앱 리소스를 찾으세요.
+9. 배포가 완료되면 `myWebSite`를 마우스 오른쪽 버튼으로 클릭하고 "Browse Site"를 선택하여 공개적으로 액세스할 수 있는 새로운 애플리케이션을 볼 수 있습니다. (기본 마이크로소프트 홈페이지가 뜬다면 1~2분뒤 새로고침 해보세요, 업로드에 시간이 걸립니다.)
+10. `myWebSite`를 우클릭하고 "Open in Portal"을 클릭해서 Azure portal에서 자세한 내용을 확인하실 수 있습니다.
 
 > **오류가 뜨나요?** 정적 웹 앱을 만들 때 Azure 구독을 선택하라는 메시지가 표시되고 구독을 선택할 수 없는 경우 VS Code에서 "계정" 탭을 확인하세요. 해당 옵션이 나타나면 "...에 액세스 권한 부여" 옵션을 선택하십시오.
 
@@ -177,7 +191,7 @@ Codespaces에서 프로젝트를 연 상태에서:
 
 이제 여러분은 여러분만의 홈페이지를 가지게 되셨습니다!
 
-친구들에게 보내주며 자랑해보세요!
+친구들에게 웹사이트 링크를 보내주며 자랑해보세요!
 
 
 
