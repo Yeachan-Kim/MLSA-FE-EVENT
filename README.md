@@ -165,18 +165,30 @@ Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더�
 
 * [Azure 학생 계정 만들기(카드필요없음)](https://azure.microsoft.com/free/students/?WT.mc_id=academic-79839-sagibbon)
 
+<br/>
+
+### 수정사항 업데이트 하기
+
 모든 수정이 끝났으면 왼쪽 사이드바에서 `소스 제어`를 클릭합니다.
 ![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/62678fff-a6ca-4844-8940-1195f07e8ed2)
 
-커밋 버튼위 빈칸에 `update`를 작성한 후 커밋 버튼을 눌러줍니다. (스테이징~ 라고 나오면 확인을 눌러줍니다)
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/420885e1-d6c8-4784-bef3-df2a3dc34508)
+`커밋 버튼`위 빈칸에 `update`를 작성한 후 `커밋 버튼`을 눌러줍니다. (스테이징~ 라고 나오면 확인을 눌러줍니다)
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/9a8b72a4-4db3-4c64-8299-c7f96e5d0e30)
+
+커밋할 스테이징된 변경 사항이 없습니다. 모든 변경 사항을 스테이징하고 직접 커밋하시겠습니까?
+
+라고 나온다면 `예`를 눌러줍니다.
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/3f139542-e1a8-497a-9186-d1de538bd02f)
+
 
 `변경 내용 동기화`를 눌러주시고 확인을 눌러줍니다.
 
 ![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/d53075fc-b311-419a-9f44-d4138213df6f)
 
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/34c25da8-2a4c-4620-bae1-18289f3fc1c3)
+<br/>
 
-
+### Azure로 세상에 나의 홈페이지 배포하기
 
 1. 왼쪽 사이드바에서 Azure 아이콘을 클릭합니다. 아직 로그인하지 않은 경우 로그인하고, Azure를 처음 사용하는 경우에는 프롬프트에 따라 계정을 만듭니다.
 2. Azure 메뉴에서 "+" 기호를 클릭한 다음 "Create Static Web App"를 클릭합니다.
