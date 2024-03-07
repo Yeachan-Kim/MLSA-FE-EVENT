@@ -165,10 +165,16 @@ Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더�
 
 * [Azure 학생 계정 만들기(카드필요없음)](https://azure.microsoft.com/free/students/?WT.mc_id=academic-79839-sagibbon)
 
-모든 수정이 끝났으면 왼쪽 사이트바에서 `소스 제어`를 클릭합니다.
+모든 수정이 끝났으면 왼쪽 사이드바에서 `소스 제어`를 클릭합니다.
 ![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/62678fff-a6ca-4844-8940-1195f07e8ed2)
-커밋을 눌러줍니다. (스테이징~ 라고 나오면 확인을 눌러줍니다)
+
+커밋 버튼위 빈칸에 `update`를 작성한 후 커밋 버튼을 눌러줍니다. (스테이징~ 라고 나오면 확인을 눌러줍니다)
 ![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/420885e1-d6c8-4784-bef3-df2a3dc34508)
+
+`변경 내용 동기화`를 눌러주시고 확인을 눌러줍니다.
+
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/d53075fc-b311-419a-9f44-d4138213df6f)
+
 
 
 
@@ -185,12 +191,21 @@ Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더�
 7. 완료되면 화면 하단에 알림이 표시되고 새로운 GitHub Action 워크플로가 프로젝트에 추가됩니다. “GitHub에서 액션 열기”를 클릭하면 생성된 액션이 현재 실행 중인 것을 볼 수 있습니다.
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
 8. 배포 상태를 보려면 VS Code 왼쪽 막대의 Azure 탭에서 정적 웹앱 리소스를 찾으세요.
-9. 배포가 완료되면 `myWebSite`를 마우스 오른쪽 버튼으로 클릭하고 "Browse Site"를 선택하여 공개적으로 액세스할 수 있는 새로운 애플리케이션을 볼 수 있습니다. (기본 마이크로소프트 홈페이지가 뜬다면 1~2분뒤 새로고침 해보세요, 업로드에 시간이 걸립니다.)
-10. `myWebSite`를 우클릭하고 "Open in Portal"을 클릭해서 Azure portal에서 자세한 내용을 확인하실 수 있습니다.
+9. 배포가 완료되면 `myWebSite`를 마우스 오른쪽 버튼으로 클릭하고 "Browse Site"를 선택하여 공개적으로 액세스할 수 있는 새로운 애플리케이션을 볼 수 있습니다.
+10. (기본 마이크로소프트 홈페이지가 뜬다면 1~2분뒤 새로고침 해보세요, 업로드에 시간이 걸립니다.) ![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/8719f244-be65-4af4-b152-c51a7d824e67)
+
+11. `myWebSite`를 우클릭하고 "Open in Portal"을 클릭해서 Azure portal에서 자세한 내용을 확인하실 수 있습니다.
 
 > **오류가 뜨나요?** 정적 웹 앱을 만들 때 Azure 구독을 선택하라는 메시지가 표시되고 구독을 선택할 수 없는 경우 VS Code에서 "계정" 탭을 확인하세요. 해당 옵션이 나타나면 "...에 액세스 권한 부여" 옵션을 선택하십시오.
 
 > 🤩 **보너스(선택)**: [Azure Static Web App용 사용자 지정 도메인 만들기](https://learn.microsoft.com/en-us/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=academic-79839-sagibbon)
+
+### 수정 및 업데이트
+웹사이트를 수정하고 싶다면 바꾸고 싶은 부분을 변경하고
+
+`소스 제어` -> `커밋 메세지 작성` -> `커밋 버튼 클릭` -> `동기화`
+
+의 과정을 해주시면 자동으로 웹사이트가 업데이트 됩니다!
 
 ## 완성!
 힘든 여정을 따라오느라 고생하셨습니다.
