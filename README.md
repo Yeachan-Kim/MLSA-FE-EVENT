@@ -27,6 +27,8 @@
 
    <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Web application started on port 1234" style="width: 300px;"/>
 
+키보드의 CTRL을 누른 상태로 `http://localhost:1234`을 마우스 왼클릭 하시면 웹사이트가 새로운 브라우저에서 열리게 됩니다.
+
 <br />
 
 ## ✨ 이제 사이트를 꾸며봅시다!
@@ -37,8 +39,8 @@
 
 ```javascript
 const siteProps = {
-  name: "김예찬",
-  title: "프론트엔드 개발자 & MLSA ",
+  name: "Yeachan Kim",
+  title: "FrontEnd Developer & MLSA",
   email: "Yeachan.Kim@studentambassadors.com",
   gitHub: "Yeachan-Kim",
   instagram: "MLSA_KNU",
@@ -49,11 +51,13 @@ const siteProps = {
 };
 ```
 
-위 형식에 맞게 자유롭게 오른쪽 부분을 변경해주세요! (EX. name: "홍길동")
+위 형식에 맞게 자유롭게 오른쪽 부분을 변경해주세요! (EX. name: "Minjin Park")
 
 작성할 내용이 없다면 빈 문자열("")로 남겨두면 됩니다.
 
 빈 문자열("")로 설정된 항목이 있으면 아이콘과 링크가 표시되지 않습니다.
+
+수정을 마친 후 변경된 웹 사이트를 보고 싶다면 아까 열어둔 웹사이트를 새로고침 하시거나 다시 여시면 됩니다!
 
 ### 2️⃣ 배경 이미지를 바꿔 볼까요?
 
