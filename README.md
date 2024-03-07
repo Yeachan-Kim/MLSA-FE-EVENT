@@ -50,19 +50,25 @@ const siteProps = {
 ```
 
 위 형식에 맞게 자유롭게 오른쪽 부분을 변경해주세요! (EX. name: "홍길동")
+
 작성할 내용이 없다면 빈 문자열("")로 남겨두면 됩니다.
+
 빈 문자열("")로 설정된 항목이 있으면 아이콘과 링크가 표시되지 않습니다.
 
 ### 2️⃣ 배경 이미지를 바꿔 볼까요?
 
-이 포트폴리오 사이트에는 1. 상단 섹션 배경 2."내 소개" 배경 3. 포트폴리오 배경 총 3가지 이미지가 포함되어 있습니다.
+이 포트폴리오 사이트에는 1. `상단 섹션` 배경 2.`내 소개` 배경 3. `포트폴리오` 배경 총 3가지 이미지가 포함되어 있습니다.
 
 사진은 `/src/images` 폴더에 있는 사진들 중 마음에 드는 걸로 고르시면 됩니다!
 
 만약 images 폴더 안에 dog.jpg 이미지를 선택하고 싶은 경우
+
 import image from "../images/server-wall.jpg"; -> import image from "../images/dog.jpg";
+
 와 같이 이미지를 선택해주고
+
 const imageAltText = "서있는 여성의 이미지"; -> const imageAltText = "강아지 사진";
+
 와 같이 이미지 설명을 변경하시면 됩니다.
 
 아래의 3곳을 변경해주세요!
@@ -91,6 +97,12 @@ const imageAltText = "서있는 여성의 이미지"; -> const imageAltText = "�
 
 * `description`: 자신, 경력 목표 및/또는 열정을 설명하는 짧은 문장 1~2개
 * `detailOrQuote`: 자신에 대한 자세한 내용이나 좋아하는 인용문을 추가할 수 있는 긴 블록
+```javascript
+const description =
+  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+const detailOrQuote =
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+```
 
 다음으로는 포트폴리오 섹션을 수정해봅시다!
 
@@ -125,38 +137,59 @@ const projectList = [
 
 <br/>
 
-## 🏃 Deploy your web application
+## 🏃 이제 배포를 해 봅시다!
 
-Project includes the setup needed for you to deploy **FREE** to either [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) _**or**_ [GitHub Pages](https://pages.github.com/)</a>. Instructions are included below for both:
+저희는 [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon)을 이용해서 무료로 배포를 해볼겁니다!
 
-### Azure Static Web Apps
+### Azure Static Web Apps이란 무엇인가?
 
-[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) is Microsoft's hosting solution for static sites (or sites that are rendered in the user's browser, not on a server) through Azure. This service provides additional opportunities to expand your site through Azure Functions, authentication, staging versions and more.
+Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더링되는 사이트)를 위한 Microsoft의 호스팅 솔루션입니다.
 
-You'll need both Azure and GitHub accounts to deploy your web application. If you don't yet have an Azure account you can create it from within during the deploy process, or from below links:
+웹 애플리케이션을 배포하려면 Azure 및 GitHub 계정이 모두 필요합니다. 아직 Azure 계정이 없으면 배포 프로세스 중에 또는 아래 링크에서 만들 수 있습니다.
 
-* [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/?WT.mc_id=academic-79839-sagibbon)
-* [Create a new Azure account](https://azure.microsoft.com/?WT.mc_id=academic-79839-sagibbon)
+* [Azure 학생 계정 만들기(카드필요없음)](https://azure.microsoft.com/free/students/?WT.mc_id=academic-79839-sagibbon)
 
-With your project open in Codespaces:
+Codespaces에서 프로젝트를 연 상태에서:
 
-1. Click Azure icon in the left sidebar. Log in if you are not already, and if new to Azure, follow the prompts to create your account.
-1. From Azure menu click “+” sign and then “Create Static Web App”.
-1. If you are not logged into GitHub you will be prompted to log in. If you have any pending file changes you will then be prompted to commit those changes.
-1. Set your application information when prompted:
-    1. **Region**: pick the one closest to you
-    1. **Project structure**: select "React"
-    1. **Location of application code**: `/`
-    1. **Build location**: `dist`
-1. When complete you will see a notification at the bottom of your screen, and a new GitHub Action workflow will be added to your project. If you click “Open Action in GitHub” you will see the action that was created for you, and it is currently running.
+1. 왼쪽 사이드바에서 Azure 아이콘을 클릭합니다. 아직 로그인하지 않은 경우 로그인하고, Azure를 처음 사용하는 경우에는 프롬프트에 따라 계정을 만듭니다.
+2. Azure 메뉴에서 "+" 기호를 클릭한 다음 "정적 웹 앱 만들기"를 클릭합니다.
+3. GitHub에 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다. 보류 중인 파일 변경 사항이 있는 경우 해당 변경 사항을 커밋하라는 메시지가 표시됩니다.
+4. 메시지가 표시되면 애플리케이션 정보를 설정합니다.
+    1. **Region**: 가장 가까운 지역을 선택하세요.
+    2. **Project structure**: "React"를 선택하세요.
+    3. **Location of application code**: `/`
+    4. **Build location**: `dist`
+5. 완료되면 화면 하단에 알림이 표시되고 새로운 GitHub Action 워크플로가 프로젝트에 추가됩니다. “GitHub에서 액션 열기”를 클릭하면 생성된 액션이 현재 실행 중인 것을 볼 수 있습니다.
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
-1. To view the status of your deployment, find your Static Web App resource in the Azure tab in the VS Code left side bar.
-1. Once deployment is complete, you can view your brand new new publicly accessible application by right clicking on your Static Web App resource and selecting "Browse Site".
+1. 배포 상태를 보려면 VS Code 왼쪽 막대의 Azure 탭에서 정적 웹앱 리소스를 찾으세요.
+1. 배포가 완료되면 정적 웹 앱 리소스를 마우스 오른쪽 버튼으로 클릭하고 "Browse Site"를 선택하여 공개적으로 액세스할 수 있는 새로운 애플리케이션을 볼 수 있습니다.
 
-> **Issues?** When creating your Static Web app, if you are prompted to select an Azure subscription and are not able to select a subscription, check the "Accounts" tab in VS Code. Make sure to choose the "Grant access to ..." options if those options appear. Should you receive the error-message "RepositoryToken is invalid. ..." switch to Visual Studio Code for the Web (vscode.dev) and repeat the steps there.
+> **오류가 뜨나요?** 정적 웹 앱을 만들 때 Azure 구독을 선택하라는 메시지가 표시되고 구독을 선택할 수 없는 경우 VS Code에서 "계정" 탭을 확인하세요. 해당 옵션이 나타나면 "...에 액세스 권한 부여" 옵션을 선택하십시오.
 
-> 🤩 **Bonus**: [Setup a custom domain for your Azure Static Web App](https://learn.microsoft.com/en-us/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=academic-79839-sagibbon)
+> 🤩 **보너스(선택)**: [Azure Static Web App용 사용자 지정 도메인 만들기](https://learn.microsoft.com/en-us/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=academic-79839-sagibbon)
 
+## 완성!
+힘든 여정을 따라오느라 고생하셨습니다.
+
+이제 여러분은 여러분만의 홈페이지를 가지게 되셨습니다!
+
+친구들에게 보내주며 자랑해보세요!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 여기부턴 주석처리
 ### GitHub Pages
 
 [GitHub Pages](https://pages.github.com/) allows you to host websites directly from your GitHub repository. This project is already set up for you to get your portfolio deployed to GitHub pages with minimal steps.
@@ -372,3 +405,4 @@ Explore how you can use Copilot to help you:
 
 ## 🔎 Found an issue or have an idea for improvement?
 Help us make this template repository better by [letting us know and opening an issue!](/../../issues/new).
+-->
