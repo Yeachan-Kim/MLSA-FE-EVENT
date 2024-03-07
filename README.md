@@ -5,6 +5,7 @@
 
 몇 분 만에 자신만의 포트폴리오 웹사이트를 생성, 사용자 정의 및 배포할 수 있습니다. ✨
 
+
 ### 하나하나 따라하며 만들어 볼까요?
 
 1. 아래 이미지처럼 **Use this Template** 버튼을 누르고 **Create a new repository** 버튼을 누릅니다.
@@ -164,7 +165,12 @@ Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더�
 
 * [Azure 학생 계정 만들기(카드필요없음)](https://azure.microsoft.com/free/students/?WT.mc_id=academic-79839-sagibbon)
 
-Codespaces에서 프로젝트를 연 상태에서:
+모든 수정이 끝났으면 왼쪽 사이트바에서 `소스 제어`를 클릭합니다.
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/62678fff-a6ca-4844-8940-1195f07e8ed2)
+커밋을 눌러줍니다. (스테이징~ 라고 나오면 확인을 눌러줍니다)
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/420885e1-d6c8-4784-bef3-df2a3dc34508)
+
+
 
 1. 왼쪽 사이드바에서 Azure 아이콘을 클릭합니다. 아직 로그인하지 않은 경우 로그인하고, Azure를 처음 사용하는 경우에는 프롬프트에 따라 계정을 만듭니다.
 2. Azure 메뉴에서 "+" 기호를 클릭한 다음 "Create Static Web App"를 클릭합니다.
