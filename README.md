@@ -226,7 +226,8 @@ Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더�
 
 친구들에게 웹사이트 링크를 보내주며 자랑해보세요!
 
-
+### 추가적인 정보가 필요하다면??
+[FE 세션_질문에_대한_대답 보러가기](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/blob/main/MLSA%20%EC%83%81%EB%B0%98%EA%B8%B0%2024%EB%85%84%EB%8F%84%203.22%20%ED%96%89%EC%82%AC%20FE%20%EC%84%B8%EC%85%98_%EC%A7%88%EB%AC%B8%EC%97%90_%EB%8C%80%ED%95%9C_%EB%8C%80%EB%8B%B5.pdf)
 
 
 
