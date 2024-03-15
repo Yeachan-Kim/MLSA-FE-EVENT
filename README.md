@@ -10,8 +10,10 @@
 
 1. 아래 이미지처럼 **Use this Template** 버튼을 누르고 **Create a new repository** 버튼을 누릅니다.
    참고: GitHub에 로그인했는지 확인하세요. 그렇지 않으면 이 템플릿 사용 버튼이 표시되지 않습니다.
-<!--![JavaScript profile web application](/__images__/use-this-template.png "Use this Template Image Guide")-->
-![use-this-template](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/755ccab5-47f7-41af-af8e-7b1a55d1b9cc)
+
+   <img src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/755ccab5-47f7-41af-af8e-7b1a55d1b9cc"/>
+<!--![JavaScript profile web application](/__images__/use-this-template.png "Use this Template Image Guide")
+![use-this-template](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/755ccab5-47f7-41af-af8e-7b1a55d1b9cc)-->
 
 3. 새 저장소의 고유한 이름을 입력하세요.
 4. 새로 생성된 저장소의 메인 페이지로 이동합니다.
