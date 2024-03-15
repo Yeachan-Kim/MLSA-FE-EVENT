@@ -258,18 +258,18 @@ Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더�
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/69d86c06-8dfc-4fbc-9631-b1f0ed662d68"/>
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/9a5b55b6-4f4a-4250-b478-8c43472c6c80"/>
 
-5. 완료되면 화면 하단에 알림이 표시되고 새로운 GitHub Action 워크플로가 프로젝트에 추가됩니다. “GitHub에서 액션 열기”를 클릭하면 생성된 액션이 현재 실행 중인 것을 볼 수 있습니다.
+5. [참고]완료되면 화면 하단에 알림이 표시되고 새로운 GitHub Action 워크플로가 프로젝트에 추가됩니다. “GitHub에서 액션 열기”를 클릭하면 생성된 액션이 현재 실행 중인 것을 볼 수 있습니다.
 
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
 
-7. 배포가 완료되면 `Azure` -> `~구독` -> `Static Web Apps` -> `myWebSite`를 마우스 오른쪽 버튼으로 클릭하고 "Browse Site"를 선택하여 누구나 들어갈 수 있는 웹사이트를 볼 수 있습니다.
+6. 배포가 완료되면 `Azure` -> `~구독` -> `Static Web Apps` -> `myWebSite`를 마우스 오른쪽 버튼으로 클릭하고 "Browse Site"를 선택하여 누구나 들어갈 수 있는 웹사이트를 볼 수 있습니다.
 
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/6ce57353-8827-4fc5-8c6a-e766bba593f1"/>
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/a2d0a596-fa6f-478c-a5ae-0e3c031b4e9f"/>
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/bc401ddf-db1a-4e3c-a27d-a6426834b247"/>
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/cf8011f5-5d33-4964-ac36-d6ef281c9a3a"/>
 
-8. (기본 마이크로소프트 홈페이지가 뜬다면 1~2분뒤 새로고침 해보세요, 업로드에 시간이 걸립니다.)
+7. (기본 마이크로소프트 홈페이지가 뜬다면 1~2분뒤 새로고침 해보세요, 업로드에 시간이 걸립니다.)
 
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/8719f244-be65-4af4-b152-c51a7d824e67"/>
 
