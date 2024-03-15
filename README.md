@@ -10,12 +10,18 @@
 
 1. 아래 이미지처럼 **Use this Template** 버튼을 누르고 **Create a new repository** 버튼을 누릅니다.
    참고: GitHub에 로그인했는지 확인하세요. 그렇지 않으면 이 템플릿 사용 버튼이 표시되지 않습니다.
-![JavaScript profile web application](/__images__/use-this-template.png "Use this Template Image Guide")
-2. 새 저장소의 고유한 이름을 입력하세요.
-3. 새로 생성된 저장소의 메인 페이지로 이동합니다.
-4. 저장소 이름 아래에서 코드 드롭다운 메뉴를 사용하고 Codespaces 탭에서 "Create codespace on main"을 선택합니다.
+<!--![JavaScript profile web application](/__images__/use-this-template.png "Use this Template Image Guide")-->
+![use-this-template](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/755ccab5-47f7-41af-af8e-7b1a55d1b9cc)
 
-    <img src="./__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>
+3. 새 저장소의 고유한 이름을 입력하세요.
+4. 새로 생성된 저장소의 메인 페이지로 이동합니다.
+5. 저장소 이름 아래에서 코드 드롭다운 메뉴를 사용하고 Codespaces 탭에서 "Create codespace on main"을 선택합니다.
+
+   
+   <img width="388" alt="createcodespace" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/69c384d2-8811-4e91-8781-beaf42ac9335">
+
+
+    <!--<img src="./__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>-->
 
 
 4. GitHub가 Codespace를 초기화하는 동안 기다립니다.
