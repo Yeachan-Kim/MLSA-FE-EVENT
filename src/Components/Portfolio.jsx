@@ -3,9 +3,9 @@ import React from "react";
 
 
 //[2]여기를 수정해주세요!!
-//[background1] 을 desk1, desk2 , desk3 중 하나로 바꿔주세요
+//[desk1]을 desk1, desk2 , desk3 중 하나로 바꿔주세요
 //예시) import image from "../images/desk1.jpg"; 이렇게요!
-import image from "../images/design-desk.jpeg";
+import image from "../images/desk1.jpg";
 const imageAltText = "desktop with books and laptop";
 
 
