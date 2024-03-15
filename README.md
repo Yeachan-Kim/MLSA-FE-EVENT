@@ -289,25 +289,20 @@ Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더�
 ### 수정사항 업데이트 하기
 
 모든 수정이 끝났으면 왼쪽 사이드바에서 `소스 제어`를 클릭합니다.
-
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/12d0faab-dad5-46c2-beee-f5015741692d)
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/12d0faab-dad5-46c2-beee-f5015741692d"/>
 
 `커밋 버튼`위 빈칸에 `update`를 작성한 후 `커밋 버튼`을 눌러줍니다.
-
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/b3bb8fa6-99c8-4ce8-89b5-0eafc2525254)
-
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/b3bb8fa6-99c8-4ce8-89b5-0eafc2525254"/>
 
 커밋할 스테이징된 변경 사항이 없습니다. 모든 변경 사항을 스테이징하고 직접 커밋하시겠습니까?
 
 라고 나온다면 `예`를 눌러줍니다.
-
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/f7d0b5f0-6045-41b5-a74b-b407ab00ffe0)
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/f7d0b5f0-6045-41b5-a74b-b407ab00ffe0"/>
 
 `변경 내용 동기화`를 눌러주시고 확인을 눌러줍니다.
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/1f984592-e94c-4660-a5c3-3d3718b34659"/>
 
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/1f984592-e94c-4660-a5c3-3d3718b34659)
-
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/6e014305-53b6-4233-ae9f-b1ba085bc446)
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/6e014305-53b6-4233-ae9f-b1ba085bc446"/>
 
 <br/>
 
