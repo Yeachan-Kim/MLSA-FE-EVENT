@@ -24,18 +24,17 @@
 
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/ee35168f-3c57-404b-84a6-d963c3a7f2fd"/>
 
-3. 새로 생성된 저장소의 메인 페이지로 이동합니다.
-4. 저장소 이름 아래에서 코드 드롭다운 메뉴를 사용하고 Codespaces 탭에서 "Create codespace on main"을 선택합니다.
+3. 저장소 이름 아래에서 코드 드롭다운 메뉴를 사용하고 Codespaces 탭에서 "Create codespace on main"을 선택합니다.
 
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/7cc1a395-4cf8-49bf-9f18-e6a220c4db52"/>
 
 <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/e9112921-5eaf-4f1c-9be1-1ec097d342f1"/>
 
-5. GitHub가 Codespace를 초기화하는 동안 기다립니다.
+4. GitHub가 Codespace를 초기화하는 동안 기다립니다.
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
 
-6. 완료되면 하단에 터미널 섹션이 있는 Codespace 로드가 표시됩니다. Codespaces는 npm install을 통해 컨테이너에 필요한 모든 확장을 설치한 후, 패키지 설치가 완료되면 Codespaces가 실행되어 npm start를 통해 Codespace 내에서 실행되는 웹 애플리케이션을 시작합니다.
+5. 완료되면 하단에 터미널 섹션이 있는 Codespace 로드가 표시됩니다. Codespaces는 npm install을 통해 컨테이너에 필요한 모든 확장을 설치한 후, 패키지 설치가 완료되면 Codespaces가 실행되어 npm start를 통해 Codespace 내에서 실행되는 웹 애플리케이션을 시작합니다.
 
 웹 애플리케이션이 성공적으로 시작되면 서버가 Codespace 내의 포트 1234에서 실행되고 있다는 메시지가 터미널에 표시됩니다.
 
