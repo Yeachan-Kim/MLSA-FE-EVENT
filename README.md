@@ -5,34 +5,37 @@
 
 몇 분 만에 자신만의 포트폴리오 웹사이트를 생성, 사용자 정의 및 배포할 수 있습니다. ✨
 
+### 요구사항: 깃허브 계정, Azure 계정(비용 무료)
 
-### 하나하나 따라하며 만들어 볼까요?
+## 하나하나 따라하며 만들어 볼까요?
 
 1. 아래 이미지처럼 **Use this Template** 버튼을 누르고 **Create a new repository** 버튼을 누릅니다.
    참고: GitHub에 로그인했는지 확인하세요. 그렇지 않으면 이 템플릿 사용 버튼이 표시되지 않습니다.
 
-   <img src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/755ccab5-47f7-41af-af8e-7b1a55d1b9cc"/>
+   <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/755ccab5-47f7-41af-af8e-7b1a55d1b9cc"/>
 
-   
-<!--![JavaScript profile web application](/__images__/use-this-template.png "Use this Template Image Guide")
-![use-this-template](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/755ccab5-47f7-41af-af8e-7b1a55d1b9cc)-->
-
-3. 새 저장소의 고유한 이름을 입력하세요.
-4. 새로 생성된 저장소의 메인 페이지로 이동합니다.
-5. 저장소 이름 아래에서 코드 드롭다운 메뉴를 사용하고 Codespaces 탭에서 "Create codespace on main"을 선택합니다.
-
-   
-   <img width="388" alt="createcodespace" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/69c384d2-8811-4e91-8781-beaf42ac9335">
+   <img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/7f950066-161c-421f-893c-73aa204f67d2"/>
 
 
-    <!--<img src="./__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>-->
+<br/>
+<br/>
+<br/>
+2. 새 저장소의 이름을 myWebsite로 입력하고 Create repository 클릭!
 
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/ee35168f-3c57-404b-84a6-d963c3a7f2fd"/>
 
-6. GitHub가 Codespace를 초기화하는 동안 기다립니다.
+3. 새로 생성된 저장소의 메인 페이지로 이동합니다.
+4. 저장소 이름 아래에서 코드 드롭다운 메뉴를 사용하고 Codespaces 탭에서 "Create codespace on main"을 선택합니다.
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/7cc1a395-4cf8-49bf-9f18-e6a220c4db52"/>
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/e9112921-5eaf-4f1c-9be1-1ec097d342f1"/>
+
+5. GitHub가 Codespace를 초기화하는 동안 기다립니다.
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
 
-7. 완료되면 하단에 터미널 섹션이 있는 Codespace 로드가 표시됩니다. Codespaces는 npm install을 통해 컨테이너에 필요한 모든 확장을 설치한 후, 패키지 설치가 완료되면 Codespaces가 실행되어 npm start를 통해 Codespace 내에서 실행되는 웹 애플리케이션을 시작합니다.
+6. 완료되면 하단에 터미널 섹션이 있는 Codespace 로드가 표시됩니다. Codespaces는 npm install을 통해 컨테이너에 필요한 모든 확장을 설치한 후, 패키지 설치가 완료되면 Codespaces가 실행되어 npm start를 통해 Codespace 내에서 실행되는 웹 애플리케이션을 시작합니다.
 
 웹 애플리케이션이 성공적으로 시작되면 서버가 Codespace 내의 포트 1234에서 실행되고 있다는 메시지가 터미널에 표시됩니다.
 
@@ -46,7 +49,14 @@
 
 ### 1️⃣ "내 소개"와 소셜 계정을 추가하세요
 
+이 부분을 바꿔볼거에요!
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/9f453817-1d32-4e38-a11a-3894fcacd1bd"/>
+
 /src/App.jsx 파일을 클릭하면 siteProps 이라는 변수가 보일 것입니다. 이는 이름, 직위, 이메일 및 소셜 계정을 사용자 정의하는 JavaScript 개체입니다.
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/b86144df-7bb7-4154-a6a2-a20b6ba5c36f"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/9fcdf3b3-db03-40e6-892e-b93b52bead80"/>
 
 ```javascript
 const siteProps = {
@@ -74,35 +84,48 @@ const siteProps = {
 
 ### 2️⃣ 배경 이미지를 바꿔 볼까요?
 
+이 부분을 바꿔볼 거에요!
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/00de8fec-41de-43c4-928e-2d332da49a6e"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/bf282319-07a5-44df-8e78-d603e6ba2f92"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/5d0771ac-e1dc-445f-8f84-70b87b75ab46"/>
+
 이 포트폴리오 사이트에는 1. `상단 섹션` 배경 2.`내 소개` 배경 3. `포트폴리오` 배경 총 3가지 이미지가 포함되어 있습니다.
-
-사진은 `/src/images` 폴더에 있는 사진들 중 마음에 드는 걸로 고르시면 됩니다!
-
-만약 images 폴더 안에 dog.jpg 이미지를 선택하고 싶은 경우
-
-import image from "../images/server-wall.jpg"; -> import image from "../images/dog.jpg";
-
-와 같이 이미지를 선택해주고
-
-const imageAltText = "서있는 여성의 이미지"; -> const imageAltText = "강아지 사진";
-
-와 같이 이미지 설명을 변경하시면 됩니다.
 
 아래의 3곳을 변경해주세요!
 
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/951875b8-ce89-403c-aa8a-547854cc2bfc"/>
+
+1. Home.jsx를 클릭하세요!
+아래 코드를 찾아서 [woman-with-tablet] 을 cat1 , cat2 , dog1 , dog2 중 하나로 바꿔주세요
+imageAltText에는 이미지 설명을 위한 글을 간단하게 작성해주세요
+
 * `/src/Components/Home.jsx` - 페이지 상단 섹션(여성 얼굴 이미지)
    ```javascript
-      import image from "../images/server-wall.jpg";
+      import image from "../images/woman-with-tablet.jpg";
       const imageAltText = "서있는 여성의 이미지";
    ```
+(결과 예시)
+   ```javascript
+      import image from "../images/cat1.jpg";
+      const imageAltText = "고양이 이미지";
+   ```
+
+2. About.jsx를 클릭하세요!
+아래 코드를 찾아서 [motion-background] 을 background1, background2, background3 중 하나로 바꿔주세요
+
 * `/src/Components/About.jsx` - "내 소개" 섹션 뒤의 배경(추상적인 이미지)
    ```javascript
-      import image from "../images/mosaic.svg";
+      import image from "../images/motion-background.svg";
       const imageAltText = "보라와 파란색의 모자이크 이미지";
    ```
+
+3. Portfolio.jsx를 클릭하세요!
+아래 코드를 찾아서 [desk1] 을 desk1, desk2, desk3 중 하나로 바꿔주세요
+
 * `/src/Components/Portfolio.jsx`- 포트폴리오 섹션 왼쪽에 표시된 이미지(책과 필기도구 이미지)
    ```javascript
-      import image from "../images/design-desk.jpeg";
+      import image from "../images/desk1.jpeg";
       const imageAltText = "책과 필기도구 이미지";
    ```
 
@@ -110,11 +133,15 @@ const imageAltText = "서있는 여성의 이미지"; -> const imageAltText = "�
 
 자기소개 섹션을 수정해봅시다!
 
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/ceb275cc-540e-4066-904d-c8a3292c4fb3"/>
+
 `/src/Components/About.jsx` 파일 안에 3곳을 변경해봅시다!
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/11348e31-49c0-406a-9050-609145ba7b73"/>
 
 * `description`: 자신, 경력 목표 및/또는 열정을 설명하는 짧은 문장 1~2개
 * `skillsList`: 자신이 가지고 있는 능력
-* `detailOrQuote`: 자신에 대한 자세한 내용이나 좋아하는 인용문을 추가할 수 있는 긴 블록
+* `detailOrQuote`: 자신에 대한 자세한 내용이나 좋아하는 인용문
 ```javascript
 const description =
   "경북대학교에서 사람들에게 MS의 기술을 전파하고 있는 MLSA 김예찬입니다.";
@@ -131,15 +158,19 @@ const detailOrQuote =
 ```
 
 다음으로는 포트폴리오 섹션을 수정해봅시다!
+진행했던 프로젝트를 기입하시면 됩니다 없으면 아무거나 쓰시면 돼요!
+오늘은 각 프로젝트 별 title 부분만 수정해봅시다
 
-`/src/Components/Portfolio.jsx` 파일로 가서 `projectList` 변수를 변경해봅시다
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/201d1868-2268-43c1-ab84-4f94974dc73d"/>
 
-샘플에는 4개의 프로젝트가 있지만 본인 마음대로 갯수를 늘리고 줄일 수 있어요!
+`/src/Components/Portfolio.jsx` 파일로 가서 `projectList` 변수를 변경해봅시다.
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/302b5c38-a039-4e2f-a802-5423a1dbb5b9"/>
 
 ```javascript
 const projectList = [
   {
-    title: "Azure Static Web Apps 🎉에 대해 알아야 할 10가지",
+    title: "About Azure Static Web Apps 가르치기!",
     description: "초보자 친화적인 사람을 만들기 위한 협력....",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
@@ -149,12 +180,12 @@ const projectList = [
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "나의 이력서 사이트",
+    title: "나의 첫 포트폴리오 사이트",
     description: "마이크로소프트의 이력서 워크샵에서 작성...",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and GitHub.dev",
+    title: "깃허브 바로 사용하기!",
     description: "Video interview to explain when to use GitHub.dev...",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
@@ -163,7 +194,7 @@ const projectList = [
 
 <br/>
 
-## 🏃 이제 배포를 해 봅시다!
+## [4]🏃 이제 배포를 해 봅시다!
 
 저희는 [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon)을 이용해서 무료로 배포를 해볼겁니다!
 
@@ -171,7 +202,7 @@ const projectList = [
 
 Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더링되는 사이트)를 위한 Microsoft의 호스팅 솔루션입니다.
 
-웹 애플리케이션을 배포하려면 Azure 및 GitHub 계정이 모두 필요합니다. 아직 Azure 계정이 없으면 배포 프로세스 중에 또는 아래 링크에서 만들 수 있습니다.
+웹 애플리케이션을 배포하려면 Azure 및 GitHub 계정이 모두 필요합니다. 아직 Azure 계정이 없으면 아래 링크에서 만들 수 있습니다.
 
 * [Azure 학생 계정 만들기(카드필요없음)](https://azure.microsoft.com/free/students/?WT.mc_id=academic-79839-sagibbon)
 
@@ -180,61 +211,110 @@ Azure를 통해 정적 사이트(또는 사용자의 브라우저에서 렌더�
 ### 수정사항 업데이트 하기
 
 모든 수정이 끝났으면 왼쪽 사이드바에서 `소스 제어`를 클릭합니다.
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/62678fff-a6ca-4844-8940-1195f07e8ed2)
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/12d0faab-dad5-46c2-beee-f5015741692d"/>
 
-`커밋 버튼`위 빈칸에 `update`를 작성한 후 `커밋 버튼`을 눌러줍니다. (스테이징~ 라고 나오면 확인을 눌러줍니다)
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/9a8b72a4-4db3-4c64-8299-c7f96e5d0e30)
+`커밋 버튼`위 빈칸에 `update`를 작성한 후 `커밋 버튼`을 눌러줍니다.
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/b3bb8fa6-99c8-4ce8-89b5-0eafc2525254"/>
 
 커밋할 스테이징된 변경 사항이 없습니다. 모든 변경 사항을 스테이징하고 직접 커밋하시겠습니까?
 
 라고 나온다면 `예`를 눌러줍니다.
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/3f139542-e1a8-497a-9186-d1de538bd02f)
-
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/f7d0b5f0-6045-41b5-a74b-b407ab00ffe0"/>
 
 `변경 내용 동기화`를 눌러주시고 확인을 눌러줍니다.
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/1f984592-e94c-4660-a5c3-3d3718b34659"/>
 
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/d53075fc-b311-419a-9f44-d4138213df6f)
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/6e014305-53b6-4233-ae9f-b1ba085bc446"/>
 
-![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/34c25da8-2a4c-4620-bae1-18289f3fc1c3)
 <br/>
 
-### Azure로 세상에 나의 홈페이지 배포하기
+이제 배포할 준비가 다 되었습니다!
 
-1. 왼쪽 사이드바에서 Azure 아이콘을 클릭합니다. 아직 로그인하지 않은 경우 로그인하고, Azure를 처음 사용하는 경우에는 프롬프트에 따라 계정을 만듭니다.
+### [5] Azure로 세상에 나의 홈페이지 배포하기
+
+1. 왼쪽 사이드바에서 Azure 아이콘을 클릭합니다. 그 후 로그인을 해주시면 됩니다, Azure를 처음 사용하는 경우에는 프롬프트에 따라 계정을 만듭니다.
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/22654a20-49f0-4e0f-b6c2-b176283db440"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/27ccf228-ecc2-4b6b-8140-5f581829c8e0"/>
+
 2. Azure 메뉴에서 "+" 기호를 클릭한 다음 "Create Static Web App"를 클릭합니다.
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/62e9e08a-7aed-4a81-8eb5-8de191f62118"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/f26f6a3d-ba85-4e84-beaa-27908117609b"/>
+
 3. GitHub에 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다. 로그인 해주시면 됩니다.
-4. 보류 중인 파일 변경 사항이 있는 경우 해당 변경 사항을 커밋하라는 메시지가 표시됩니다. 허락 해주시면 됩니다. `Commit made from VS Code Azure Static Web Apps` 라고 뜬다면 Enter 누르시면 됩니다.
-5. 메시지가 표시되면 애플리케이션 정보를 설정합니다.
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/040afbad-ddf5-4afd-9b78-de196b71fc04"/>
+
+4. 메시지가 표시되면 애플리케이션 정보를 설정합니다.
       1. **Name**: `myWebSite`라고 작성해주세요.
       2. **Region**: `East Asia` 지역을 선택하세요.
       3. **Project structure**: `React`를 선택하세요.
       4. **Location of application code**: `/` 라고 작성해주세요
-      5. **Build location**: `dist` 라고 작성해주세요.
-7. 완료되면 화면 하단에 알림이 표시되고 새로운 GitHub Action 워크플로가 프로젝트에 추가됩니다. “GitHub에서 액션 열기”를 클릭하면 생성된 액션이 현재 실행 중인 것을 볼 수 있습니다.
+      5. **Build location**: (중요!) `build` --> `dist` 라고 작성해주세요.
+
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/83ffa69e-c661-44d3-8fbc-c51818b5b7d9"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/e27fae30-f1f9-425b-855a-c8186256f93a"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/cf736b27-be15-4b31-b2a5-04e5abb13f13"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/69d86c06-8dfc-4fbc-9631-b1f0ed662d68"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/9a5b55b6-4f4a-4250-b478-8c43472c6c80"/>
+
+5. 완료되면 화면 하단에 알림이 표시되고 새로운 GitHub Action 워크플로가 프로젝트에 추가됩니다. “GitHub에서 액션 열기”를 클릭하면 생성된 액션이 현재 실행 중인 것을 볼 수 있습니다.
+
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
-8. 배포 상태를 보려면 VS Code 왼쪽 막대의 Azure 탭에서 정적 웹앱 리소스를 찾으세요.
-9. 배포가 완료되면 `myWebSite`를 마우스 오른쪽 버튼으로 클릭하고 "Browse Site"를 선택하여 공개적으로 액세스할 수 있는 새로운 애플리케이션을 볼 수 있습니다.
-10. (기본 마이크로소프트 홈페이지가 뜬다면 1~2분뒤 새로고침 해보세요, 업로드에 시간이 걸립니다.) ![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/8719f244-be65-4af4-b152-c51a7d824e67)
 
-11. `myWebSite`를 우클릭하고 "Open in Portal"을 클릭해서 Azure portal에서 자세한 내용을 확인하실 수 있습니다.
+7. 배포가 완료되면 `Azure` -> `~구독` -> `Static Web Apps` -> `myWebSite`를 마우스 오른쪽 버튼으로 클릭하고 "Browse Site"를 선택하여 누구나 들어갈 수 있는 웹사이트를 볼 수 있습니다.
 
-> **오류가 뜨나요?** 정적 웹 앱을 만들 때 Azure 구독을 선택하라는 메시지가 표시되고 구독을 선택할 수 없는 경우 VS Code에서 "계정" 탭을 확인하세요. 해당 옵션이 나타나면 "...에 액세스 권한 부여" 옵션을 선택하십시오.
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/6ce57353-8827-4fc5-8c6a-e766bba593f1"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/a2d0a596-fa6f-478c-a5ae-0e3c031b4e9f"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/bc401ddf-db1a-4e3c-a27d-a6426834b247"/>
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/cf8011f5-5d33-4964-ac36-d6ef281c9a3a"/>
 
-> 🤩 **보너스(선택)**: [Azure Static Web App용 사용자 지정 도메인 만들기](https://learn.microsoft.com/en-us/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=academic-79839-sagibbon)
+8. (기본 마이크로소프트 홈페이지가 뜬다면 1~2분뒤 새로고침 해보세요, 업로드에 시간이 걸립니다.)
 
-### 수정 및 업데이트
-웹사이트를 수정하고 싶다면 바꾸고 싶은 부분을 변경하고
-
-`소스 제어` -> `커밋 메세지 작성` -> `커밋 버튼 클릭` -> `동기화`
-
-의 과정을 해주시면 자동으로 웹사이트가 업데이트 됩니다!
+<img width="500" src="https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/8719f244-be65-4af4-b152-c51a7d824e67"/>
 
 ## 완성!
+
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/bee4835b-2c6d-4988-85a6-545446f4b7ab)
+
 힘든 여정을 따라오느라 고생하셨습니다.
 
 이제 여러분은 여러분만의 홈페이지를 가지게 되셨습니다!
 
 친구들에게 웹사이트 링크를 보내주며 자랑해보세요!
+
+### 수정 및 업데이트
+웹사이트를 수정하고 싶다면 바꾸고 싶은 부분을 변경하고 [4]번 항목만 다시 진행해주시면 됩니다 [5]항목은 다시할 필요 없어요!
+
+### 수정사항 업데이트 하기
+
+모든 수정이 끝났으면 왼쪽 사이드바에서 `소스 제어`를 클릭합니다.
+
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/12d0faab-dad5-46c2-beee-f5015741692d)
+
+`커밋 버튼`위 빈칸에 `update`를 작성한 후 `커밋 버튼`을 눌러줍니다.
+
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/b3bb8fa6-99c8-4ce8-89b5-0eafc2525254)
+
+
+커밋할 스테이징된 변경 사항이 없습니다. 모든 변경 사항을 스테이징하고 직접 커밋하시겠습니까?
+
+라고 나온다면 `예`를 눌러줍니다.
+
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/f7d0b5f0-6045-41b5-a74b-b407ab00ffe0)
+
+`변경 내용 동기화`를 눌러주시고 확인을 눌러줍니다.
+
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/1f984592-e94c-4660-a5c3-3d3718b34659)
+
+![image](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/assets/52204621/6e014305-53b6-4233-ae9f-b1ba085bc446)
+
+<br/>
+
+의 과정을 해주시면 자동으로 웹사이트가 업데이트 됩니다!
+
+
 
 ### 추가적인 정보가 필요하다면??
 [FE 세션_질문에_대한_대답 보러가기](https://github.com/Yeachan-Kim/MLSA-FE-EVENT/blob/main/MLSA%20%EC%83%81%EB%B0%98%EA%B8%B0%2024%EB%85%84%EB%8F%84%203.22%20%ED%96%89%EC%82%AC%20FE%20%EC%84%B8%EC%85%98_%EC%A7%88%EB%AC%B8%EC%97%90_%EB%8C%80%ED%95%9C_%EB%8C%80%EB%8B%B5.pdf)
